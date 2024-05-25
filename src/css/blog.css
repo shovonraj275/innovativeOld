@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    margin: 0px 50px;
+}
+
+
+
+section#blog_02 {
+    margin: 20px 50px;
+}
+
+section#blog_02 div#laft_side {
+
+}
+
+section#blog_02 div#laft_side div.card_part {
+    display: inline-flex;
+    width: 100%;
+}
+
+section#blog_02 div#laft_side div.card_part div.card:nth-child(1) {
+    width: 70%;
+    margin-right: 10px;
+}
+section#blog_02 div#laft_side div.card_part div.card:nth-child(2){
+    width: 30%;
+}
+
+section#blog_02 div#laft_side div.card_part div.card div.blog_02_part {
+    margin: 15px 0;
+}
+section#blog_02 div#laft_side div.card_part div.card div.blog_02_part:first-child {
+   margin-top: 0;
+}
+section#blog_02 div#laft_side div.card_part div.card div.blog_02_part:last-child {
+    margin-bottom: 0;
+}
+
+section#blog_02 div#laft_side div.card_part div.card div.blog_02_part h1 {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+
+
+section#blog_02 div#laft_side div.card_part div.card div.blog_02_part h4 {
+    margin-bottom: 5px;
+}
+
+
+
+section#blog_02 div#laft_side div.card_part div.card div.blog_part p {
+
+}
+section#blog_02 div#laft_side div.card_part div.card div.blog_part button {
+    border: 0;
+    margin: 20px;
+}
+section#blog_02 div#laft_side div.card_part div.card div.blog_part button a{
+    text-decoration: none;
+}
+section#blog_02 div#laft_side div.card_part div.card div.blog_part button a.btn{
+    border: none;
+    background: #000;
+    color: red;
+    padding: 10px 16px;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 575px) {
+   
+     
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+    body{
+        /* background: #000 !important; */
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    h1 {
+        margin: 0px 50px;
+    }
+    
+    
+    
+    section#blog_02 {
+        margin: 20px ;
+    }
+    
+    section#blog_02 div#laft_side {
+    
+    }
+    
+    section#blog_02 div#laft_side div.card_part {
+        display: inline-block;
+        width: 100%;
+    }
+    
+    section#blog_02 div#laft_side div.card_part div.card:nth-child(1) {
+        width: 100%;
+        margin-right: 10px;
+    }
+    section#blog_02 div#laft_side div.card_part div.card:nth-child(2){
+        width: 100%;
+    }
+    
+    section#blog_02 div#laft_side div.card_part div.card div.blog_part {
+    
+    }
+    section#blog_02 div#laft_side div.card_part div.card div.blog_part {
+        margin: 15px 0;
+    }
+    section#blog_02 div#laft_side div.card_part div.card div.blog_part:first-child {
+       margin-top: 0;
+    }
+    section#blog_02 div#laft_side div.card_part div.card div.blog_part:last-child {
+        margin-bottom: 0;
+    }
+    section#blog_02 div#laft_side div.card_part div.card div.blog_part h1 {
+        margin: 0;
+        margin-bottom: 5px;
+    }
+    
+    
+    
+    section#blog_02 div#laft_side div.card_part div.card div.blog_part h4 {
+        margin-bottom: 5px;
+    }
+    
+    
+    
+    section#blog_02 div#laft_side div.card_part div.card div.blog_part p {
+    
+    }
+    section#blog_02 div#laft_side div.card_part div.card div.blog_part button {
+        border: 0;
+        margin: 20px 0 ;
+    }
+    section#blog_02 div#laft_side div.card_part div.card div.blog_part button a{
+        text-decoration: none;
+    }
+    section#blog_02 div#laft_side div.card_part div.card div.blog_part button a.btn{
+        border: none;
+        background: #000;
+        color: red;
+        padding: 10px 16px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+     body{
+        /* background: yellow !important; */
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+ body{
+        /* background: red !important; */
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+ body{
+        /* background: green !important; */
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+ body{
+        /* background: blue !important; */
+    }
+}
+
+
+

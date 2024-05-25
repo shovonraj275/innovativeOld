@@ -1,0 +1,4086 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* card_part */
+.card_part {
+    width: 100%;
+    display: inline-flex;
+}
+
+/* description */
+p.description {
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+}
+
+/*button  */
+button {
+    border: 0;
+
+}
+
+button a {}
+
+/* header_top */
+section#header_top {
+    background: #5BDAE1;
+    padding: 20px 0;
+}
+
+section#header_top div.card_part {}
+
+section#header_top div.card_part div.card {
+    width: 50%;
+}
+
+section#header_top div.card_part div.card:first-child {
+    margin-left: 30px;
+}
+
+section#header_top div.card_part div.card:last-child {
+    width: 50%;
+    text-align: right;
+    margin-right: 30px;
+}
+
+section#header_top div.card_part div.card i.fa.fa-clock-o {}
+
+section#header_top div.card_part div.card a {
+    color: #000;
+}
+
+/* nav_section */
+
+
+section#header_bottom {
+    display: inline-flex;
+    padding: 20px;
+    width: 97%;
+}
+
+section#header_bottom div.name-area {
+    width: 20%;
+}
+
+section#header_bottom div.name-area div.united {}
+
+section#header_bottom div.name-area div.united a {
+    font-size: 50px;
+}
+
+section#header_bottom div.name-area div.united a span.u {
+    color: #5BDAE1;
+}
+
+
+
+section#header_bottom div.name-area div.united sup {}
+
+
+
+section#header_bottom nav#nav {
+    text-align: right;
+    width: 80%;
+}
+
+
+
+
+.topnav {
+    overflow: hidden;
+    float: right;
+
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: #000;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.topnav a:hover,
+.dropdown:hover .dropbtn {
+    /* background-color: ; */
+    color: #000;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media screen and (max-width: 600px) {
+
+    .topnav a,
+    .dropdown .dropbtn {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .topnav.responsive .dropdown {
+        float: none;
+    }
+
+    .topnav.responsive .dropdown-content {
+        position: relative;
+    }
+
+    .topnav.responsive .dropdown .dropbtn {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+/* section#header_bottom nav#nav div.menu {
+margin-top: 20px;
+}
+
+section#header_bottom nav#nav div.menu ul {
+
+}
+
+ul{
+    text-align: right;
+    width: 80%;  
+}
+
+ ul li {
+    display: inline;
+    padding: 0px 10px !important;
+}
+
+ul li a {
+    padding: 10px 5px !important;
+    font-size: 20px;
+}
+
+ul li:nth-child(1){
+    padding-left: 0 !important;
+}
+
+ul li:last-child{
+    padding-right: 0 !important;
+}
+
+
+section#header_bottom nav#nav div.mobile-menu {
+display: none;
+}
+
+section#header_bottom nav#nav div.mobile-menu span {
+
+}
+
+
+
+section#header_bottom nav#nav div.mobile-menu div#mobileNav.overlay {
+
+}
+
+section#header_bottom nav#nav div.mobile-menu div#mobileNav.overlay a.btn-close {
+
+}
+
+
+
+section#header_bottom nav#nav div.mobile-menu div#mobileNav.overlay div.overlay-content {
+
+}
+
+section#header_bottom nav#nav div.mobile-menu div#mobileNav.overlay div.overlay-content a {
+
+}
+ */
+
+
+/* nav_section */
+/* banner_area */
+
+section.sliders {}
+
+.bx-wrapper img {
+    width: 100%;
+    display: block;
+}
+
+.bx-wrapper .bx-pager {
+    display: none;
+}
+
+.bx-wrapper {
+    -moz-box-shadow: 0 0 5px #ccc;
+    -webkit-box-shadow: 0 0 5px #ccc;
+    box-shadow: 0 0 5px #ccc;
+    border: 5px solid transparent;
+    background: #fff;
+    margin-bottom: 0;
+}
+
+section.banner_area {
+    display: none;
+}
+
+section.banner_area {
+    background-image: url(../iamges/PicsArt_04-12-06.39.25.png);
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    position: relative;
+}
+
+section.banner_area div.banner_content {
+    position: absolute;
+    top: 40%;
+    left: 2%;
+}
+
+section.banner_area div.banner_content h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+
+
+section.banner_area div.banner_content h3 {}
+
+
+/* banner_area */
+/* about_us */
+
+section.about_us {
+    background: #5EDDE2;
+    padding: 40px 20px;
+    width: 100%;
+}
+
+section.about_us h1 {
+    font-size: 32px;
+}
+
+
+
+section.about_us div.card_part {}
+
+section.about_us div.card_part div.card {
+    width: 80% !important;
+}
+
+section.about_us div.card_part div.button {
+    width: 20% !important;
+}
+
+
+
+section.about_us div.card_part div.card.button {}
+
+section.about_us div.card_part div.card.button button {}
+
+section.about_us div.card_part div.card.button button a.btn {}
+
+
+
+/* about_us */
+
+/* service */
+
+section.about_us {}
+
+section.about_us h1 {}
+
+
+
+section.about_us div.card_part {
+    width: 100%;
+}
+
+section.about_us div.card_part div.card {
+    width: 50%;
+}
+
+
+
+section.about_us div.card_part div.card.button {}
+
+section.about_us div.card_part div.card.button button {
+    padding: 10px;
+    cursor: pointer;
+    background: #5EDDE2;
+    border: 2px solid #4D5B66;
+    color: #4D5B66;
+}
+
+section.about_us div.card_part div.card.button button a.btn {}
+
+
+
+section.service {
+    padding: 25px 40px;
+}
+
+section.service h1 {
+    text-align: center;
+    font-size: 45px;
+}
+
+
+
+section.service p {}
+
+section.service div.md_divice {
+    display: none;
+}
+
+
+section.service div.card_part {
+    margin-top: 20px;
+}
+
+section.service div.card_part div.card {
+    width: 33.33%;
+}
+
+section.service div.card_part:nth-child(2) {
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+}
+
+section.service div.card_part div.card div.sub_card_part {
+    display: inline-flex;
+}
+
+
+
+section.service div.card_part div.card div.sub_card_part div.sub_card {}
+
+section.service div.card_part div.card div.sub_card_part div.sub_card:nth-child(2) {
+    margin-left: 30px;
+}
+
+section.service div.card_part div.card div.sub_card_part div.sub_card p {
+    width: 100%;
+    margin-left: 0;
+    text-align: left;
+}
+
+
+section.service div.card_part div.card div.sub_card_part div.sub_card i.fa,
+.far,
+.fas,
+.fab {
+    padding: 20px;
+    border-radius: 50%;
+    color: #4D5B66;
+    background: #5EDDE2;
+}
+
+
+section.service div.card_part div.card div.sub_card_part div.sub_card i.far.fa-lightbulb {
+    font-size: 19px;
+}
+
+/* service */
+/* about_us -02 */
+
+section.about_us_02 {
+    background: #37444D;
+    color: #fff;
+    padding: 40px 35px;
+}
+
+section.about_us_02 h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+
+section.about_us_02 p.description {
+    margin-bottom: 10px;
+}
+
+section.about_us_02 p.description br {}
+
+
+
+section.about_us_02 div.card_part {
+    margin-top: 30px;
+}
+
+section.about_us_02 div.card_part div.card {}
+
+section.about_us_02 div.card_part div.card br {}
+
+
+section.about_us_02 div.card_part div.card p {}
+
+section.about_us_02 div.card_part div.card a {
+    color: #FFF;
+}
+
+
+
+section.about_us_02 div.card_part div.card button {
+    margin-top: 30px;
+}
+
+section.about_us_02 div.card_part div.card button a.btn {
+    background: #68EBE6;
+    padding: 10px;
+}
+
+
+
+/* about_us -02 */
+
+/* blog */
+section#blog {
+    padding: 40px 35px;
+}
+
+section#blog div.card_part {
+    width: 100%;
+}
+
+section#blog div.card_part div.card {
+    width: 33.3%;
+    margin: 5px;
+}
+
+section#blog div.card_part div.card:nth-child(1) {
+    margin-left: 0;
+}
+
+section#blog div.card_part div.card:last-child {
+    margin-right: 0;
+}
+
+section#blog div.card_part div.card h2 {
+    margin-bottom: 20px;
+    color: #4D5B66;
+}
+
+section#blog div.card_part div.card h2 a {}
+
+section#blog div.card_part div.card p {
+    font-style: italic;
+}
+
+section#blog div.card_part div.card div.card_part_sub {
+    display: inline-flex;
+    width: 100%;
+    margin-top: 30px;
+}
+
+section#blog div.card_part div.card div.card_part_sub div.card_sub:nth-child(1) {
+    width: 30%;
+}
+
+section#blog div.card_part div.card div.card_part_sub div.card_sub {
+    width: 70%;
+}
+
+section#blog div.card_part div.card div.card_part_sub div.card_sub img {
+    width: 75%;
+    height: 75%;
+    border-radius: 50%;
+}
+
+section#blog div.card_part div.card div.card_part_sub div.card_sub a {
+    color: #000;
+    font-size: 20px;
+}
+
+section#blog div.card_part div.card br {}
+
+
+/* contact */
+section#contact {
+    background: #33404A;
+    padding: 40px 35px;
+}
+
+section#contact div.card_part {}
+
+section#contact div.card_part div.card {
+    width: 33.33%;
+}
+
+section#contact div.card_part div.card h3 {
+    color: #000;
+}
+
+
+
+section#contact div.card_part div.card br {}
+
+
+
+section#contact div.card_part div.card address {}
+
+section#contact div.card_part div.card address br {}
+
+section#contact div.card_part div.card a {
+    color: #83B2AE;
+    display: block;
+    padding: 5px 0;
+}
+
+section#contact div.card_part div.card a.link {}
+
+/* footer */
+
+section.footer-area {
+    background: #33404A;
+    padding: 40px 20px;
+}
+
+
+section.footer-area div.card_part {}
+
+section.footer-area div.card_part div.card {
+    width: 46%
+}
+
+section.footer-area div.card_part div.card:last-child {
+    text-align: right;
+}
+
+section.footer-area div.card_part div.card a {}
+
+section.footer-area div.card_part div.card a i.fa {
+    padding: 0 10px;
+}
+
+section.footer-area div.card_part div.card a i.fa-facebook {
+    color: #097CEB;
+}
+
+section.footer-area div.card_part div.card a i.fa-twitter {
+    color: #5DA9DD;
+}
+
+section.footer-area div.card_part div.card a i.fa-youtube {
+    color: #FF0404;
+}
+
+section.footer-area div.card_part div.card a i.fa-google-plus {
+    color: #34A853;
+}
+
+
+
+/* Style the button that is used to open and close the collapsible stogger */
+.collapsible {
+    background-color: #fff;
+    color: #444;
+    cursor: pointer;
+    padding: 13px;
+    width: 85%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    border: 1px solid #f5f5f5;
+    margin-top: 10px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.collapsible:hover {
+    background-color: #ccc;
+}
+
+/* Style the collapsible stogger. Note: hidden by default */
+.stogger {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+/* blog */
+
+
+/* page */
+/*  about us  */
+section#about_us_page {}
+
+section#about_us_page h1 {
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 11px;
+    margin: 10px 0;
+}
+
+
+
+section#about_us_page div.main_part {}
+
+section#about_us_page div.main_part div.card_part {
+    margin: 0;
+    width: 92.5%;
+    margin: 0px 50px;
+}
+
+section#about_us_page div.main_part div.card_part div.card.content_part {
+    margin-right: 20px;
+}
+
+section#about_us_page div.main_part div.card_part div.card.content_part p {
+    margin-bottom: 25px;
+}
+
+section#about_us_page div.main_part div.card_part div.card.content_part br {
+    display: inline-flex;
+    width: 100%;
+}
+
+
+
+section#about_us_page div.main_part div.card_part div.card.image {}
+
+section#about_us_page div.main_part div.card_part div.card.image img {
+    height: 90%;
+}
+
+section#about_us_page div.main_part div.card_part div.card.content_part button {
+
+    /* color: red; */
+}
+
+section#about_us_page div.main_part div.card_part div.card.content_part button a.pg_abo {
+    padding: 10px;
+    background: #000;
+    color: red;
+}
+
+/* teem  */
+
+section#about_us_page div.main_part div#teem {
+    background: #f7f7f7;
+}
+
+section#about_us_page div.main_part div#teem h1 {
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 11px;
+    margin: 10px 0;
+}
+
+
+
+section#about_us_page div.main_part div#teem div.card_part {
+    width: 92.5%;
+    margin: 20px 50px;
+}
+
+section#about_us_page div.main_part div#teem div.card_part div.card {
+    width: 33%;
+    margin: 0 5px;
+    border: 3px solid transparent;
+    height: 510px;
+}
+
+section#about_us_page div.main_part div#teem div.card_part div.card:first-child {
+    margin-left: 0;
+}
+
+section#about_us_page div.main_part div#teem div.card_part div.card:last-child {
+    margin-right: 0;
+}
+
+section#about_us_page div.main_part div#teem div.card_part div.card:hover {
+    border: 3px solid #444;
+
+}
+
+section#about_us_page div.main_part div#teem div.card_part div.card img {
+    width: 100%;
+}
+
+
+
+section#about_us_page div.main_part div#teem div.card_part div.card h3.name {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+
+
+section#about_us_page div.main_part div#teem div.card_part div.card h5.dige {
+    text-align: right;
+    margin-right: 20%;
+    font-size: 20px;
+}
+
+
+
+section#about_us_page div.main_part div#teem div.card_part div.card p.message {
+    width: 95%;
+    margin: 5px 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+    height: 100px;
+}
+
+
+
+section#about_us_page div.main_part div#teem div.card_part div.card button.btn {
+    margin-left: 5%;
+}
+
+section#about_us_page div.main_part div#teem div.card_part div.card button.btn a.pg_abo.teem {
+    padding: 10px;
+    background: #000;
+    color: red;
+}
+
+/* progresss bar  */
+
+
+section#about_us_page div.main_part div#progress_bar {}
+
+section#about_us_page div.main_part div#progress_bar div.card_part {}
+
+section#about_us_page div.main_part div#progress_bar div.card_part div.card {
+    width: 25%;
+
+}
+
+section#about_us_page div.main_part div#progress_bar div.card_part div.card h3 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 17px;
+}
+
+section#about_us_page div.main_part div#progress_bar div.card_part div.card div.progress-bar {
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+
+section#about_us_page div.main_part div#teem div.card_part div.card ul {
+
+}
+
+section#about_us_page div.main_part div#teem div.card_part div.card ul.icon {
+    margin-left: 14%;
+}
+
+section#about_us_page div.main_part div#teem div.card_part div.card ul.icon li {
+    display: inline;
+    margin: 0 25px;
+}
+
+section#about_us_page div.main_part div#teem div.card_part div.card ul.icon li a {
+    background: #000;
+    color: #fff;
+    padding: 11px;
+    border-radius: 50%;
+
+}
+
+section#about_us_page div.main_part div#teem div.card_part div.card ul.icon li a i.fa.fa-facebook {
+
+}
+
+
+
+.progress-bar {
+    position: relative;
+    height: 150px;
+    width: 150px;
+}
+
+.progress-bar div {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.progress-bar div span {
+    position: absolute;
+    font-family: Arial;
+    font-size: 25px;
+    line-height: 75px;
+    height: 75px;
+    width: 75px;
+    left: 12.5px;
+    top: 12.5px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.progress-bar .background {
+    background-color: #b3cef6;
+}
+
+.progress-bar .rotate {
+    clip: rect(0 50px 100px 0);
+    background-color: #4b86db;
+}
+
+.progress-bar .left {
+    clip: rect(0 50px 100px 0);
+    opacity: 1;
+    background-color: #b3cef6;
+}
+
+.progress-bar .right {
+    clip: rect(0 50px 100px 0);
+    transform: rotate(180deg);
+    opacity: 0;
+    background-color: #4b86db;
+}
+
+@keyframes toggle {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* about us page   */
+/* contact us */
+
+
+
+section#contact_page {}
+
+section#contact_page h1 {
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+section#contact_page div.main_part {
+    background: #f7f7f7;
+
+}
+
+section#contact_page div.main_part div.card_part {
+    display: inline-flex;
+    width: 96.54%;
+    margin: 0 20px;
+    padding: 20px 0;
+}
+
+section#contact_page div.main_part div.card_part div.card {
+    width: 50%;
+}
+
+section#contact_page div.main_part div.card_part div.card h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+section#contact_page div.main_part div.card_part div.card.emai {}
+
+section#contact_page div.main_part div.card_part div.card.emai h3 {}
+
+section#contact_page div.main_part div.card_part div.card div.sub_card_part {
+
+    width: 95%;
+    display: inline-flex;
+    background: #5BDAE1;
+    color: #fff;
+    margin: 21px 10px;
+    padding: 40px;
+}
+
+section#contact_page div.main_part div.card_part div.card div.sub_card_part:first-child {
+    margin-top: 0;
+}
+
+section#contact_page div.main_part div.card_part div.card div.sub_card_part:last-child {
+    margin-bottom: 0;
+}
+
+section#contact_page div.main_part div.card_part div.card div.sub_card_part div.sub_card {}
+
+section#contact_page div.main_part div.card_part div.card div.sub_card_part div.sub_card.icon {
+    width: 20%;
+}
+
+section#contact_page div.main_part div.card_part div.card div.sub_card_part div.sub_card.content {
+    width: 80%;
+    font-size: 20px;
+}
+
+section#contact_page div.main_part div.card_part div.card div.sub_card_part div.sub_card.content a {
+    color: #fff;
+}
+
+section#contact_page div.main_part div.card_part div.card div.sub_card_part div.sub_card i.fa {
+    font-size: 30px;
+}
+
+/* sub office */
+
+
+section#contact_page section#sub_office {
+    margin: 50px 0;
+}
+
+section#contact_page section#sub_office h1 {
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+    color: #000;
+
+}
+
+
+
+section#contact_page section#sub_office div.lgd {}
+
+section#contact_page section#sub_office div.lgd div.card_part,
+section#contact_page section#sub_office div.mdd div.card_part {
+    width: 96.5%;
+    display: inline-flex;
+    margin: 0 20px;
+}
+
+section#contact_page section#sub_office div.mdd div.card_part div.card,
+section#contact_page section#sub_office div.lgd div.card_part div.card {
+
+    background: #5BDAE1;
+    margin: 5px;
+    padding: 10;
+    color: #fff;
+
+}
+
+section#contact_page section#sub_office div.mdd div.card_part div.card:first-child,
+section#contact_page section#sub_office div.lgd div.card_part div.card:first-child {
+    margin-left: 0;
+}
+
+section#contact_page section#sub_office div.mdd div.card_part div.card:last-child,
+section#contact_page section#sub_office div.lgd div.card_part div.card:last-child {
+    margin-right: 0;
+}
+
+section#contact_page section#sub_office div.lgd div.card_part div.card {
+    width: 32%;
+    height: 165px;
+}
+
+section#contact_page section#sub_office div.mdd div.card_part div.card h2,
+section#contact_page section#sub_office div.lgd div.card_part div.card h2 {
+    text-align: center;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+
+
+section#contact_page section#sub_office div.mdd div.card_part div.card p a,
+section#contact_page section#sub_office div.lgd div.card_part div.card p a {
+    color: #fff;
+
+}
+
+section#contact_page section#sub_office div.lgd div.card_part div.card a {}
+
+section#contact_page section#sub_office div.mdd div.card_part div.card p i.fa,
+section#contact_page section#sub_office div.lgd div.card_part div.card p i.fa {
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+
+
+section#contact_page section#sub_office div.lgd div.card_part div.card p br {}
+
+
+
+section#contact_page section#sub_office div.lgd div.card_part div.card p i.fa.fa-envelope {}
+
+
+
+
+
+
+
+section#contact_page section#sub_office div.lgd div.card_part div.card p i.fa.fa-phone {}
+
+
+
+section#contact_page section#sub_office div.mdd div.card_part div.card p button,
+section#contact_page section#sub_office div.lgd div.card_part div.card p button {
+    margin-top: 20px;
+}
+
+
+section#contact_page section#sub_office div.lgd div.card_part div.card p button a.btn.btn_pg_con,
+section#contact_page section#sub_office div.mdd div.card_part div.card p button a.btn.btn_pg_con {
+    padding: 12px;
+    background: #000;
+    color: red;
+}
+
+/* 
+section#contact_page section#sub_office div.mdd div.card_part div.card p button a.btn.btn_pg_con{
+    padding: 12px 250px;
+    background: #000;
+    color: red;
+}
+section#contact_page section#sub_office div.lgd div.card_part div.card p button a.btn.btn_pg_con {
+    padding: 12px 140px;
+    background: #000;
+    color: red;
+} */
+
+
+
+section#contact_page section#sub_office div.mdd {}
+
+
+section#contact_page section#sub_office div.mdd div.card_part div.card {
+    width: 49%;
+    height: 165px;
+}
+
+section#contact_page section#sub_office div.mdd div.card_part div.card h2 {}
+
+
+
+section#contact_page section#sub_office div.mdd div.card_part div.card p {}
+
+section#contact_page section#sub_office div.mdd div.card_part div.card p i.fa.fa-map-marker {}
+
+
+
+section#contact_page section#sub_office div.mdd div.card_part div.card p br {}
+
+
+
+section#contact_page section#sub_office div.mdd div.card_part div.card p i.fa.fa-envelope {}
+
+
+
+section#contact_page section#sub_office div.mdd div.card_part div.card p a {}
+
+
+
+section#contact_page section#sub_office div.mdd div.card_part div.card p i.fa.fa-phone {}
+
+
+
+section#contact_page section#sub_office div.mdd div.card_part div.card p button {}
+
+section#contact_page section#sub_office div.mdd div.card_part div.card p button a.btn.btn_pg_con {}
+
+
+
+/* sub office */
+/* contact form */
+
+section#contact_page section#sub_office section#contact_form {}
+
+section#contact_page section#sub_office section#contact_form h1 {}
+
+
+
+section#contact_page section#sub_office section#contact_form div.card_part {
+    display: inline-flex;
+    width: 96.5%;
+    margin: 0 25px;
+}
+
+section#contact_page section#sub_office section#contact_form div.card_part div.card.text_sms{
+    width: 100%;
+}
+section#contact_page section#sub_office section#contact_form div.card_part div.card {
+    width: 49%;
+    margin: 0 10px;
+    margin-bottom: 10px;
+}
+
+section#contact_page section#sub_office section#contact_form div.card_part div.card br {}
+
+
+
+section#contact_page section#sub_office section#contact_form div.card_part div.card input {
+    width: 100%;
+    border: 1px solid #04AA6D;
+    padding: 10px;
+}
+
+
+
+section#contact_page section#sub_office section#contact_form textarea {
+    width: 100%;
+    border: 1px solid #04AA6D;
+    padding: 10px;
+}
+
+section#contact_page section#sub_office section#contact_form button {
+    margin-top: 20px;
+    margin-left: 55px;
+}
+
+
+section#contact_page section#sub_office section#contact_form a.btn.btn_pg_con {
+    padding: 12px;
+    background: #000;
+    color: red;
+}
+
+/* contact form */
+
+/* service */
+
+section#recent_work_pg {
+    padding: 25px 50px;
+}
+
+section#recent_work_pg h1 {
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+section#recent_work_pg div.card_part {
+    display: inline-flex;
+    width: 100%;
+}
+
+section#recent_work_pg div.card_part div.card {
+    width: 33%;
+    height: 300px;
+    margin: 10px;
+}
+
+section#recent_work_pg div.card_part div.card a {
+
+}
+
+section#recent_work_pg div.card_part div.card a img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+section#work_rate {
+    padding: 20px 50px;
+}
+
+section#work_rate div.owl-carousel {
+
+}
+
+section#work_rate div.owl-carousel div {
+
+}
+
+section#work_rate div.owl-carousel div img {
+
+}
+
+
+/* service */
+
+
+/* contact us */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100%;
+
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    /* card_part */
+    .card_part {
+        width: 100%;
+        display: inline-block;
+    }
+
+    /* description */
+    p.description {
+        width: 100%;
+        margin-left: 0%;
+        text-align: justify !important;
+        text-align: center;
+    }
+
+    /*button  */
+    button {
+        border: 0;
+
+    }
+
+    button a {}
+
+    /* header_top */
+    section#header_top {
+        background: #5BDAE1;
+        padding: 20px 0;
+    }
+
+    section#header_top div.card_part {}
+
+    section#header_top div.card_part div.card {
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    section#header_top div.card_part div.card:first-child {
+        margin-left: 0px;
+    }
+
+    section#header_top div.card_part div.card:last-child {
+        width: 100%;
+        text-align: left;
+        margin-right: 0px;
+        margin-top: 5px;
+    }
+
+    section#header_top div.card_part div.card i.fa.fa-clock-o {}
+
+    /* nav_section */
+
+    section#header_bottom {
+        display: inline-flex;
+        padding: 20px 5px;
+        width: 100%;
+    }
+
+    section#header_bottom div.name-area {
+        width: 70%;
+    }
+
+    section#header_bottom div.name-area div.united {}
+
+    section#header_bottom div.name-area div.united a {
+        font-size: 40px;
+    }
+
+    section#header_bottom div.name-area div.united a span.u {
+        color: #5BDAE1;
+    }
+
+
+
+    section#header_bottom div.name-area div.united sup {}
+
+
+
+    section#header_bottom nav#nav {
+        text-align: right;
+        width: 80%;
+    }
+
+    section#header_bottom nav#nav div.menu {
+        display: none;
+    }
+
+    section#header_bottom nav#nav div.menu ul {}
+
+    section#header_bottom nav#nav div.menu ul li {
+        display: inline;
+        padding: 0px 10px !important;
+    }
+
+    section#header_bottom nav#nav div.menu ul li a {
+        padding: 10px 5px !important;
+    }
+
+    section#header_bottom nav#nav div.menu ul li:nth-child(1) {
+        padding-left: 0 !important;
+    }
+
+    section#header_bottom nav#nav div.menu ul li:last-child {
+        padding-right: 0 !important;
+    }
+
+
+    section#header_bottom nav#nav div.mobile-menu {
+        display: block !important;
+    }
+
+    section#header_bottom nav#nav div.mobile-menu span {
+        float: right;
+        margin-top: 0;
+        margin-right: 20px;
+        color: #000;
+        font-size: 20px;
+        display: block;
+    }
+
+    section#header_bottom nav#nav div.mobile-menu span :hover {
+        cursor: pointer;
+    }
+
+    section#header_bottom nav#nav div.mobile-menu div#mobileNav.overlay {
+        width: 0;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+        /*  */
+        z-index: 1;
+        overflow-x: hidden;
+        transform: 5s;
+    }
+
+    section#header_bottom nav#nav div.mobile-menu div#mobileNav.overlay a.btn-close {
+        position: absolute;
+        top: 30px;
+        right: 40px;
+        font-size: 24px;
+        color: #fff;
+    }
+
+
+
+    section#header_bottom nav#nav div.mobile-menu div#mobileNav.overlay div.overlay-content {
+        position: relative;
+        top: 5%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    section#header_bottom nav#nav div.mobile-menu div#mobileNav.overlay div.overlay-content a {
+        text-decoration: none;
+        display: block;
+        font-size: 30px;
+        text-transform: uppercase;
+        padding: 1px 0;
+        color: #fff;
+    }
+
+
+
+    /* nav_section */
+    /* banner_area */
+    section.banner_area {
+        background-image: url(../iamges/PicsArt_04-12-06.39.25.png);
+        background-size: cover;
+        background-position: center center;
+        height: 200px;
+        position: relative;
+        width: 100%;
+    }
+
+    section.banner_area div.banner_content {
+        position: absolute;
+        top: 40%;
+        left: 2%;
+    }
+
+    section.banner_area div.banner_content h1 {
+        font-size: 45px;
+        margin-bottom: 10px;
+    }
+
+
+
+    section.banner_area div.banner_content h3 {}
+
+
+    /* banner_area */
+    /* about_us */
+
+    section.about_us {
+        background: #5EDDE2;
+        padding: 40px 5px;
+        width: 100%;
+    }
+
+    section.about_us h1 {
+        font-size: 20px;
+    }
+
+
+
+    section.about_us div.card_part {}
+
+    section.about_us div.card_part div.card {
+        width: 100%;
+    }
+
+    section.about_us div.card_part div.button {
+        width: 20% !important;
+    }
+
+
+
+    section.about_us div.card_part div.card.button {}
+
+    section.about_us div.card_part div.card.button button {}
+
+    section.about_us div.card_part div.card.button button a.btn {}
+
+
+
+    /* about_us */
+
+    /* service */
+
+    section.about_us {
+        width: 100%;
+        padding: 20px 5px;
+    }
+
+    section.about_us h1 {}
+
+
+
+    section.about_us div.card_part {}
+
+    section.about_us div.card_part div.card {
+        width: 100%;
+    }
+
+
+
+    section.about_us div.card_part div.card.button {
+        width: 100%;
+    }
+
+    section.about_us div.card_part div.card.button button {
+        padding: 10px;
+        /* cursor: pointer; */
+        background: #5EDDE2;
+        border: 2px solid #4D5B66;
+        color: #4D5B66;
+        width: 100px;
+        margin-top: 25px;
+    }
+
+    section.about_us div.card_part div.card.button button a.btn {}
+
+
+
+    section.service {
+        padding: 25px 5px;
+    }
+
+    section.service h1 {
+        text-align: center;
+        font-size: 38px;
+    }
+
+
+
+    section.service p {}
+
+
+
+    section.service div.card_part {}
+
+    section.service div.card_part:nth-child(2) {
+        margin-top: 20px !important;
+    }
+
+    section.service div.card_part div.card {
+        width: 100%;
+    }
+
+    section.service div.card_part:last-child {
+        margin-top: 0px;
+    }
+
+    section.service div.card_part div.card div.sub_card_part {
+        display: inline-flex;
+        margin-top: 10px;
+        ;
+    }
+
+
+
+    section.service div.card_part div.card div.sub_card_part div.sub_card {}
+
+    section.service div.card_part div.card div.sub_card_part div.sub_card:nth-child(2) {
+        margin-left: 30px;
+    }
+
+    section.service div.card_part div.card div.sub_card_part div.sub_card p {
+        width: 100%;
+        margin-left: 0;
+        text-align: left;
+    }
+
+
+    section.service div.card_part div.card div.sub_card_part div.sub_card i.fa,
+    .far,
+    .fas,
+    .fab {
+        padding: 20px;
+        border-radius: 50%;
+        color: #4D5B66;
+        background: #5EDDE2;
+    }
+
+
+    section.service div.card_part div.card div.sub_card_part div.sub_card i.far.fa-lightbulb {
+        font-size: 25px;
+    }
+
+    section.service div.card_part div.card div.sub_card_part div.sub_card i.fas.fa-expand-alt {
+        font-size: 20px;
+    }
+
+    /* service */
+    /* about_us -02 */
+
+    section.about_us_02 {
+        background: #37444D;
+        color: #fff;
+        padding: 40px 5px;
+    }
+
+    section.about_us_02 h1 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+
+
+    section.about_us_02 p.description {
+        margin-bottom: 10px;
+    }
+
+    section.about_us_02 p.description br {}
+
+
+
+    section.about_us_02 div.card_part {
+        margin-top: 30px;
+    }
+
+    section.about_us_02 div.card_part div.card {}
+
+    section.about_us_02 div.card_part div.card:last-child {
+        margin-top: 20px;
+    }
+
+    section.about_us_02 div.card_part div.card br {}
+
+
+    section.about_us_02 div.card_part div.card p {}
+
+    section.about_us_02 div.card_part div.card img {
+        width: 100%;
+    }
+
+    section.about_us_02 div.card_part div.card a {
+        color: #FFF;
+    }
+
+
+
+    section.about_us_02 div.card_part div.card button {
+        margin-top: 30px;
+    }
+
+    section.about_us_02 div.card_part div.card button a.btn {
+        background: #68EBE6;
+        padding: 10px;
+    }
+
+
+
+    /* about_us -02 */
+
+    /* blog */
+    section#blog {
+        padding: 40px 5px;
+    }
+
+    section#blog div.card_part {
+        width: 100%;
+    }
+
+    section#blog div.card_part div.card {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    section#blog div.card_part div.card:nth-child(1) {
+        margin-left: 0;
+    }
+
+    section#blog div.card_part div.card:last-child {
+        margin-right: 0;
+    }
+
+    section#blog div.card_part div.card h2 {
+        margin-bottom: 20px;
+        color: #4D5B66;
+    }
+
+    section#blog div.card_part div.card h2 a {}
+
+    section#blog div.card_part div.card p {
+        font-style: italic;
+    }
+
+    section#blog div.card_part div.card div.card_part_sub {
+        display: inline-flex;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    section#blog div.card_part div.card div.card_part_sub div.card_sub:nth-child(1) {
+        width: 30%;
+    }
+
+    section#blog div.card_part div.card div.card_part_sub div.card_sub {
+        width: 70%;
+    }
+
+    section#blog div.card_part div.card div.card_part_sub div.card_sub img {
+        width: 75%;
+        height: 75%;
+        border-radius: 50%;
+    }
+
+    section#blog div.card_part div.card div.card_part_sub div.card_sub a {
+        color: #000;
+        font-size: 20px;
+    }
+
+    section#blog div.card_part div.card br {}
+
+
+    /* contact */
+    section#contact {
+        background: #33404A;
+        padding: 40px 5px;
+    }
+
+    section#contact div.card_part {}
+
+    section#contact div.card_part div.card {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    section#contact div.card_part div.card h3 {
+        color: #000;
+    }
+
+
+
+    section#contact div.card_part div.card br {}
+
+
+
+    section#contact div.card_part div.card address {}
+
+    section#contact div.card_part div.card address br {}
+
+    section#contact div.card_part div.card a {
+        color: #83B2AE;
+        display: block;
+        padding: 5px 0;
+    }
+
+    section#contact div.card_part div.card a.link {}
+
+    /* footer */
+
+    section.footer-area {
+        background: #33404A;
+        padding: 40px 5px;
+    }
+
+
+    section.footer-area div.card_part {}
+
+    section.footer-area div.card_part div.card {
+        width: 100%
+    }
+
+    section.footer-area div.card_part div.card:last-child {
+        text-align: left;
+        margin-top: 10px;
+    }
+
+    section.footer-area div.card_part div.card a {}
+
+    section.footer-area div.card_part div.card a i.fa {
+        padding: 0 10px;
+    }
+
+    section.footer-area div.card_part div.card a i.fa-facebook {
+        color: #097CEB;
+    }
+
+    section.footer-area div.card_part div.card a i.fa-twitter {
+        color: #5DA9DD;
+    }
+
+    section.footer-area div.card_part div.card a i.fa-youtube {
+        color: #FF0404;
+    }
+
+    section.footer-area div.card_part div.card a i.fa-google-plus {
+        color: #34A853;
+    }
+
+
+
+    /* Style the button that is used to open and close the collapsible stogger */
+    .collapsible {
+        background-color: #fff;
+        color: #444;
+        cursor: pointer;
+        padding: 13px;
+        width: 85%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        border: 1px solid #f5f5f5;
+        margin-top: 10px;
+    }
+
+    /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+    .active,
+    .collapsible:hover {
+        background-color: #ccc;
+    }
+
+    /* Style the collapsible stogger. Note: hidden by default */
+    .stogger {
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        background-color: #f1f1f1;
+    }
+
+    /* blog */
+
+
+    /* page */
+    /*  about us  */
+    section#about_us_page {}
+
+    section#about_us_page h1 {
+        text-align: center;
+        font-size: 30px;
+        letter-spacing: 0;
+        margin: 10px 0;
+    }
+
+
+
+    section#about_us_page div.main_part {}
+
+    section#about_us_page div.main_part div.card_part {
+        margin: 0;
+        width: 90%;
+        margin: 0px 15px;
+    }
+
+    section#about_us_page div.main_part div.card_part div.card.content_part {
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    section#about_us_page div.main_part div.card_part div.card.content_part p {
+        margin-bottom: 25px;
+    }
+
+    section#about_us_page div.main_part div.card_part div.card.content_part br {
+        display: inline-block;
+        width: 100%;
+    }
+
+
+
+    section#about_us_page div.main_part div.card_part div.card.image {}
+
+    section#about_us_page div.main_part div.card_part div.card.image img {
+        height: 80%;
+        width: 100%;
+    }
+
+    section#about_us_page div.main_part div.card_part div.card.content_part button {
+
+        /* color: red; */
+    }
+
+    section#about_us_page div.main_part div.card_part div.card.content_part button a.pg_abo {
+        padding: 10px;
+        background: #000;
+        color: red;
+    }
+
+    /* teem  */
+
+    section#about_us_page div.main_part div#teem {
+        background: #f7f7f7;
+    }
+
+    section#about_us_page div.main_part div#teem h1 {
+        text-align: center;
+        font-size: 30px;
+        letter-spacing: 0;
+        margin: 10px 0;
+    }
+
+
+
+    section#about_us_page div.main_part div#teem div.card_part {
+        width: 90%;
+        margin: 20px 15px;
+        display: inline-block;
+    }
+
+    section#about_us_page div.main_part div#teem div.card_part div.card {
+        width: 100%;
+        margin: 20px 5px;
+        border: 3px solid transparent;
+        height: 530px;
+        /* background: green;  */
+    }
+
+    section#about_us_page div.main_part div#teem div.card_part div.card:first-child {
+        margin-top: 0;
+    }
+
+    section#about_us_page div.main_part div#teem div.card_part div.card:last-child {
+        margin-bottom: 0;
+    }
+
+    section#about_us_page div.main_part div#teem div.card_part div.card:hover {
+        border: 3px solid #444;
+
+    }
+
+    section#about_us_page div.main_part div#teem div.card_part div.card img {
+        width: 100%;
+    }
+
+
+
+    section#about_us_page div.main_part div#teem div.card_part div.card h3.name {
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+
+
+    section#about_us_page div.main_part div#teem div.card_part div.card h5.dige {
+        text-align: right;
+        margin-right: 20%;
+        font-size: 20px;
+    }
+
+
+
+    section#about_us_page div.main_part div#teem div.card_part div.card p.message {
+        width: 95%;
+        margin: 5px 10px;
+        margin-bottom: 10px;
+        text-align: justify;
+        height: 140px;
+    }
+
+
+
+    section#about_us_page div.main_part div#teem div.card_part div.card button.btn {
+        margin-left: 5%;
+    }
+
+    section#about_us_page div.main_part div#teem div.card_part div.card button.btn a.pg_abo.teem {
+        padding: 10px;
+        background: #000;
+        color: red;
+    }
+
+    /* progresss bar  */
+
+
+    section#about_us_page div.main_part div#progress_bar {}
+
+    section#about_us_page div.main_part div#progress_bar div.card_part {
+        width: 90%;
+        display: inline-block;
+    }
+
+    section#about_us_page div.main_part div#progress_bar div.card_part div.card {
+        width: 100%;
+        margin: 10px 0;
+
+    }
+
+    section#about_us_page div.main_part div#progress_bar div.card_part div.card:first-child {
+        margin-top: 0;
+
+    }
+
+    section#about_us_page div.main_part div#progress_bar div.card_part div.card:last-child {
+        margin-bottom: 0;
+    }
+
+    section#about_us_page div.main_part div#progress_bar div.card_part div.card h3 {
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 17px;
+    }
+
+    section#about_us_page div.main_part div#progress_bar div.card_part div.card div.progress-bar {
+        margin-left: 37%;
+        margin-top: 5%;
+    }
+
+
+
+    .progress-bar {
+        position: relative;
+        height: 150px;
+        width: 150px;
+    }
+
+    .progress-bar div {
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+    }
+
+    .progress-bar div span {
+        position: absolute;
+        font-family: Arial;
+        font-size: 25px;
+        line-height: 75px;
+        height: 75px;
+        width: 75px;
+        left: 12.5px;
+        top: 12.5px;
+        text-align: center;
+        border-radius: 50%;
+        background-color: white;
+    }
+
+    .progress-bar .background {
+        background-color: #b3cef6;
+    }
+
+    .progress-bar .rotate {
+        clip: rect(0 50px 100px 0);
+        background-color: #4b86db;
+    }
+
+    .progress-bar .left {
+        clip: rect(0 50px 100px 0);
+        opacity: 1;
+        background-color: #b3cef6;
+    }
+
+    .progress-bar .right {
+        clip: rect(0 50px 100px 0);
+        transform: rotate(180deg);
+        opacity: 0;
+        background-color: #4b86db;
+    }
+
+    @keyframes toggle {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    /* about us page   */
+
+
+
+
+    section#contact_page {}
+
+    section#contact_page h1 {
+        text-align: center;
+        font-size: 30px;
+        letter-spacing: 0px;
+        margin-bottom: 10px;
+    }
+
+
+
+    section#contact_page div.main_part {
+        background: #f7f7f7;
+        padding-bottom: 30px;
+    }
+
+    section#contact_page div.main_part div.card_part {
+        display: inline-block;
+        width: 92.54%;
+        margin: 0 0px;
+        padding: 20px 0;
+    }
+
+    section#contact_page div.main_part div.card_part div.card {
+        width: 100%;
+    }
+
+    section#contact_page div.main_part div.card_part div.card:last-child {
+       margin-top: 30px;
+    }
+
+    section#contact_page div.main_part div.card_part div.card h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    section#contact_page div.main_part div.card_part div.card.emai {}
+
+    section#contact_page div.main_part div.card_part div.card.emai h3 {}
+
+    section#contact_page div.main_part div.card_part div.card div.sub_card_part {
+
+        width: 100%;
+        display: inline-flex;
+        background: #5BDAE1;
+        color: #fff;
+        margin: 10px;
+        padding: 40px;
+    }
+
+    section#contact_page div.main_part div.card_part div.card div.sub_card_part:first-child {
+        margin-top: 0;
+    }
+
+    section#contact_page div.main_part div.card_part div.card div.sub_card_part:last-child {
+        margin-bottom: 0;
+    }
+
+    section#contact_page div.main_part div.card_part div.card div.sub_card_part div.sub_card {}
+
+    section#contact_page div.main_part div.card_part div.card div.sub_card_part div.sub_card.icon {
+        width: 20%;
+    }
+
+    section#contact_page div.main_part div.card_part div.card div.sub_card_part div.sub_card.content {
+        width: 80%;
+        font-size: 20px;
+    }
+
+    section#contact_page div.main_part div.card_part div.card div.sub_card_part div.sub_card.content a {
+        color: #fff;
+    }
+
+    section#contact_page div.main_part div.card_part div.card div.sub_card_part div.sub_card i.fa {
+        font-size: 30px;
+    }
+
+    /* sub office */
+
+
+    section#contact_page section#sub_office {
+        margin: 50px 0;
+    }
+
+    section#contact_page section#sub_office h1 {
+        text-align: center;
+        font-size: 30px;
+        letter-spacing: 0px;
+        margin-bottom: 10px;
+        color: #000;
+
+    }
+
+
+
+    section#contact_page section#sub_office div.lgd {}
+
+    section#contact_page section#sub_office div.lgd div.card_part,
+    section#contact_page section#sub_office div.mdd div.card_part {
+        width: 96.5%;
+        display: inline-block;
+        margin: 5px 0px;
+    }
+
+    section#contact_page section#sub_office div.mdd div.card_part div.card,
+    section#contact_page section#sub_office div.lgd div.card_part div.card {
+
+        background: #5BDAE1;
+        margin: 5px;
+        padding: 10;
+        color: #fff;
+
+    }
+
+    section#contact_page section#sub_office div.mdd div.card_part div.card:first-child,
+    section#contact_page section#sub_office div.lgd div.card_part div.card:first-child {
+        margin-top: 0;
+        margin-left: 5px;
+    }
+
+    section#contact_page section#sub_office div.mdd div.card_part div.card:last-child,
+    section#contact_page section#sub_office div.lgd div.card_part div.card:last-child {
+        margin-bottom: 0;
+    }
+
+    section#contact_page section#sub_office div.lgd div.card_part div.card {
+        width: 100%;
+        height: 165px;
+    }
+
+    section#contact_page section#sub_office div.mdd div.card_part div.card h2,
+    section#contact_page section#sub_office div.lgd div.card_part div.card h2 {
+        text-align: center;
+        font-size: 25px;
+        text-transform: capitalize;
+        margin-bottom: 5px;
+        color: #000;
+    }
+
+
+
+    section#contact_page section#sub_office div.mdd div.card_part div.card p a,
+    section#contact_page section#sub_office div.lgd div.card_part div.card p a {
+        color: #fff;
+
+    }
+
+    section#contact_page section#sub_office div.lgd div.card_part div.card a {}
+
+    section#contact_page section#sub_office div.mdd div.card_part div.card p i.fa,
+    section#contact_page section#sub_office div.lgd div.card_part div.card p i.fa {
+        margin-right: 20px;
+        margin-bottom: 5px;
+    }
+
+
+
+    section#contact_page section#sub_office div.lgd div.card_part div.card p br {}
+
+
+
+    section#contact_page section#sub_office div.lgd div.card_part div.card p i.fa.fa-envelope {}
+
+
+
+
+
+
+
+    section#contact_page section#sub_office div.lgd div.card_part div.card p i.fa.fa-phone {}
+
+
+
+    section#contact_page section#sub_office div.mdd div.card_part div.card p button,
+    section#contact_page section#sub_office div.lgd div.card_part div.card p button {
+        margin-top: 20px;
+    }
+
+
+    /* section#contact_page section#sub_office div.lgd div.card_part div.card p button a.btn.btn_pg_con,
+    section#contact_page section#sub_office div.mdd div.card_part div.card p button a.btn.btn_pg_con {
+        padding: 12px;
+        background: #000;
+        color: red;
+    } */
+
+    
+section#contact_page section#sub_office div.mdd div.card_part div.card p button a.btn.btn_pg_con{
+    padding: 12px 87px;
+    background: #000;
+    color: red;
+}
+section#contact_page section#sub_office div.lgd div.card_part div.card p button a.btn.btn_pg_con {
+    padding: 12px 87px;
+    background: #000;
+    color: red;
+}
+
+
+
+    section#contact_page section#sub_office div.mdd {}
+
+
+    section#contact_page section#sub_office div.mdd div.card_part div.card {
+        width: 100%;
+        height: 165px;
+    }
+
+    section#contact_page section#sub_office div.mdd div.card_part div.card h2 {}
+
+
+
+    section#contact_page section#sub_office div.mdd div.card_part div.card p {}
+
+    section#contact_page section#sub_office div.mdd div.card_part div.card p i.fa.fa-map-marker {}
+
+
+
+    section#contact_page section#sub_office div.mdd div.card_part div.card p br {}
+
+
+
+    section#contact_page section#sub_office div.mdd div.card_part div.card p i.fa.fa-envelope {}
+
+
+
+    section#contact_page section#sub_office div.mdd div.card_part div.card p a {}
+
+
+
+    section#contact_page section#sub_office div.mdd div.card_part div.card p i.fa.fa-phone {}
+
+
+
+    section#contact_page section#sub_office div.mdd div.card_part div.card p button {}
+
+    section#contact_page section#sub_office div.mdd div.card_part div.card p button a.btn.btn_pg_con {}
+
+
+
+    /* sub office */
+    /* contact form */
+
+    section#contact_page section#sub_office section#contact_form {}
+
+    section#contact_page section#sub_office section#contact_form h1 {}
+
+
+
+    section#contact_page section#sub_office section#contact_form div.card_part {
+        display: inline-block;
+        width: 96.5%;
+        margin: 0 0px;
+    }
+
+    section#contact_page section#sub_office section#contact_form div.card_part div.card {
+        width: 95%;
+        margin: 0 10px;
+        margin-bottom: 10px;
+    }
+
+    section#contact_page section#sub_office section#contact_form div.card_part div.card br {}
+
+
+
+    section#contact_page section#sub_office section#contact_form div.card_part div.card input {
+        width: 95% ;
+        border: 1px solid #04AA6D;
+        padding: 10px;
+    }
+
+
+
+    section#contact_page section#sub_office section#contact_form textarea {
+        width: 95%;
+        border: 1px solid #04AA6D;
+        padding: 10px;
+    }
+
+    section#contact_page section#sub_office section#contact_form button {
+        margin-top: 20px;
+        margin-left: 55px;
+    }
+
+
+    section#contact_page section#sub_office section#contact_form a.btn.btn_pg_con {
+        padding: 12px;
+        background: #000;
+        color: red;
+    }
+
+    /* contact form */
+    /* service */
+
+section#recent_work_pg {
+    padding: 25px 50px;
+}
+
+section#recent_work_pg h1 {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 0px;
+    padding-bottom: 10px;
+}
+
+
+
+section#recent_work_pg div.card_part {
+    display: inline-block;
+    width: 100%;
+}
+
+section#recent_work_pg div.card_part div.card {
+    width: 100%;
+    height: 150px;
+    margin: 10px;
+}
+
+section#recent_work_pg div.card_part div.card a {
+
+}
+
+section#recent_work_pg div.card_part div.card a img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+    /* contact us */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100%;
+
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    /* card_part */
+    .card_part {
+        width: 100%;
+        display: inline-block;
+    }
+
+    /* description */
+    p.description {
+        width: 100%;
+        margin-left: 0%;
+        text-align: justify !important;
+        text-align: center;
+    }
+
+    /*button  */
+    button {
+        border: 0;
+
+    }
+
+    button a {}
+
+    /* header_top */
+    section#header_top {
+        background: #5BDAE1;
+        padding: 20px 15px;
+    }
+
+    section#header_top div.card_part {
+        display: inline-flex;
+    }
+
+    section#header_top div.card_part div.card {
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    section#header_top div.card_part div.card:first-child {
+        margin-left: 0px;
+    }
+
+    section#header_top div.card_part div.card:last-child {
+        width: 100%;
+        text-align: right;
+        margin-right: 0px;
+        margin-top: 5px;
+    }
+
+    section#header_top div.card_part div.card i.fa.fa-clock-o {}
+
+    /* nav_section */
+
+    section#header_bottom {
+        display: inline-flex;
+        padding: 20px 15px;
+        width: 100%;
+    }
+
+    section#header_bottom div.name-area {
+        width: 70%;
+    }
+
+    section#header_bottom div.name-area div.united {}
+
+    section#header_bottom div.name-area div.united a {
+        font-size: 40px;
+    }
+
+    section#header_bottom div.name-area div.united a span.u {
+        color: #5BDAE1;
+    }
+
+
+
+    section#header_bottom div.name-area div.united sup {}
+
+
+
+    section#header_bottom nav#nav {
+        text-align: right;
+        width: 80%;
+    }
+
+    section#header_bottom nav#nav div.menu {
+        display: none;
+    }
+
+    section#header_bottom nav#nav div.menu ul {}
+
+    section#header_bottom nav#nav div.menu ul li {
+        display: inline;
+        padding: 0px 10px !important;
+    }
+
+    section#header_bottom nav#nav div.menu ul li a {
+        padding: 10px 5px !important;
+    }
+
+    section#header_bottom nav#nav div.menu ul li:nth-child(1) {
+        padding-left: 0 !important;
+    }
+
+    section#header_bottom nav#nav div.menu ul li:last-child {
+        padding-right: 0 !important;
+    }
+
+
+    section#header_bottom nav#nav div.mobile-menu {
+        display: block !important;
+    }
+
+    section#header_bottom nav#nav div.mobile-menu span {
+        float: right;
+        margin-top: 0;
+        margin-right: 20px;
+        color: #000;
+        font-size: 20px;
+        display: block;
+    }
+
+    section#header_bottom nav#nav div.mobile-menu span :hover {
+        cursor: pointer;
+    }
+
+    section#header_bottom nav#nav div.mobile-menu div#mobileNav.overlay {
+        width: 0;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+        /*  */
+        z-index: 1;
+        overflow-x: hidden;
+        transform: 5s;
+    }
+
+    section#header_bottom nav#nav div.mobile-menu div#mobileNav.overlay a.btn-close {
+        position: absolute;
+        top: 30px;
+        right: 40px;
+        font-size: 24px;
+        color: #fff;
+    }
+
+
+
+    section#header_bottom nav#nav div.mobile-menu div#mobileNav.overlay div.overlay-content {
+        position: relative;
+        top: 5%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    section#header_bottom nav#nav div.mobile-menu div#mobileNav.overlay div.overlay-content a {
+        text-decoration: none;
+        display: block;
+        font-size: 30px;
+        text-transform: uppercase;
+        padding: 1px 0;
+        color: #fff;
+    }
+
+
+
+    /* nav_section */
+    /* banner_area */
+    section.banner_area {
+        background-image: url(../iamges/PicsArt_04-12-06.39.25.png);
+        background-size: cover;
+        background-position: center center;
+        height: 200px;
+        position: relative;
+        width: 100%;
+    }
+
+    section.banner_area div.banner_content {
+        position: absolute;
+        top: 40%;
+        left: 2%;
+    }
+
+    section.banner_area div.banner_content h1 {
+        font-size: 45px;
+        margin-bottom: 10px;
+    }
+
+
+
+    section.banner_area div.banner_content h3 {}
+
+
+    /* banner_area */
+    /* about_us */
+
+    section.about_us {
+        background: #5EDDE2;
+        padding: 40px 15px;
+        width: 100%;
+    }
+
+    section.about_us h1 {
+        font-size: 20px;
+    }
+
+
+
+    section.about_us div.card_part {}
+
+    section.about_us div.card_part div.card {
+        width: 100%;
+    }
+
+    section.about_us div.card_part div.button {
+        width: 20% !important;
+    }
+
+
+
+    section.about_us div.card_part div.card.button {}
+
+    section.about_us div.card_part div.card.button button {}
+
+    section.about_us div.card_part div.card.button button a.btn {}
+
+
+
+    /* about_us */
+
+    /* service */
+
+    section.about_us {
+        width: 100%;
+        padding: 20px 15px;
+    }
+
+    section.about_us h1 {}
+
+
+
+    section.about_us div.card_part {}
+
+    section.about_us div.card_part div.card {
+        width: 100%;
+    }
+
+
+
+    section.about_us div.card_part div.card.button {
+        width: 100%;
+    }
+
+    section.about_us div.card_part div.card.button button {
+        padding: 10px;
+        /* cursor: pointer; */
+        background: #5EDDE2;
+        border: 2px solid #4D5B66;
+        color: #4D5B66;
+        width: 100px;
+        margin-top: 25px;
+    }
+
+    section.about_us div.card_part div.card.button button a.btn {}
+
+
+
+    section.service {
+        padding: 25px 5px;
+    }
+
+    section.service h1 {
+        text-align: center;
+        font-size: 38px;
+    }
+
+
+
+    section.service p {}
+
+    section.service div.lg_divive {
+        display: none;
+    }
+
+
+
+    section.service div.card_part {
+        margin-top: 20px;
+    }
+
+    section.service div.card_part div.card {
+        width: 100%;
+    }
+
+    section.service div.card_part:last-child {
+        margin-top: 0px;
+    }
+
+    section.service div.card_part div.card div.sub_card_part {
+        display: inline-flex;
+        margin-top: 10px;
+        ;
+    }
+
+
+
+    section.service div.card_part div.card div.sub_card_part div.sub_card {}
+
+    section.service div.card_part div.card div.sub_card_part div.sub_card:nth-child(2) {
+        margin-left: 30px;
+    }
+
+    section.service div.card_part div.card div.sub_card_part div.sub_card p {
+        width: 100%;
+        margin-left: 0;
+        text-align: left;
+    }
+
+
+    section.service div.card_part div.card div.sub_card_part div.sub_card i.fa,
+    .far,
+    .fas,
+    .fab {
+        padding: 20px;
+        border-radius: 50%;
+        color: #4D5B66;
+        background: #5EDDE2;
+    }
+
+
+    section.service div.card_part div.card div.sub_card_part div.sub_card i.far.fa-lightbulb {
+        font-size: 25px;
+    }
+
+    section.service div.card_part div.card div.sub_card_part div.sub_card i.fas.fa-expand-alt {
+        font-size: 20px;
+    }
+
+    /* md divice */
+
+
+
+    section.service div.md_divice {
+        display: block;
+    }
+
+    section.service div.md_divice div.card_part {
+        display: inline-flex;
+    }
+
+    section.service div.md_divice div.card_part div.card {
+        width: 50%;
+    }
+
+    section.service div.md_divice div.card_part div.card div.sub_card_part {}
+
+    section.service div.md_divice div.card_part div.card div.sub_card_part div.sub_card {}
+
+    section.service div.md_divice div.card_part div.card div.sub_card_part div.sub_card i.fa.fa-bell {}
+
+
+    /* md divice */
+    /* service */
+    /* about_us -02 */
+
+    section.about_us_02 {
+        background: #37444D;
+        color: #fff;
+        padding: 40px 15px;
+    }
+
+    section.about_us_02 h1 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+
+
+    section.about_us_02 p.description {
+        margin-bottom: 10px;
+    }
+
+    section.about_us_02 p.description br {}
+
+
+
+    section.about_us_02 div.card_part {
+        margin-top: 30px;
+    }
+
+    section.about_us_02 div.card_part div.card {}
+
+    section.about_us_02 div.card_part div.card:last-child {
+        margin-top: 20px;
+    }
+
+    section.about_us_02 div.card_part div.card br {}
+
+
+    section.about_us_02 div.card_part div.card p {}
+
+    section.about_us_02 div.card_part div.card img {
+        width: 100%;
+    }
+
+    section.about_us_02 div.card_part div.card a {
+        color: #FFF;
+    }
+
+
+
+    section.about_us_02 div.card_part div.card button {
+        margin-top: 30px;
+    }
+
+    section.about_us_02 div.card_part div.card button a.btn {
+        background: #68EBE6;
+        padding: 10px;
+    }
+
+
+
+    /* about_us -02 */
+
+    /* blog */
+    section#blog {
+        padding: 40px 15px;
+    }
+
+    section#blog div.card_part {
+        width: 100%;
+    }
+
+    section#blog div.card_part div.card {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    section#blog div.card_part div.card:nth-child(1) {
+        margin-left: 0;
+    }
+
+    section#blog div.card_part div.card:last-child {
+        margin-right: 0;
+    }
+
+    section#blog div.card_part div.card h2 {
+        margin-bottom: 20px;
+        color: #4D5B66;
+    }
+
+    section#blog div.card_part div.card h2 a {}
+
+    section#blog div.card_part div.card p {
+        font-style: italic;
+    }
+
+    section#blog div.card_part div.card div.card_part_sub {
+        display: inline-flex;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    section#blog div.card_part div.card div.card_part_sub div.card_sub:nth-child(1) {
+        width: 30%;
+    }
+
+    section#blog div.card_part div.card div.card_part_sub div.card_sub {
+        width: 70%;
+    }
+
+    section#blog div.card_part div.card div.card_part_sub div.card_sub img {
+        width: 75%;
+        height: 75%;
+        border-radius: 50%;
+    }
+
+    section#blog div.card_part div.card div.card_part_sub div.card_sub a {
+        color: #000;
+        font-size: 20px;
+    }
+
+    section#blog div.card_part div.card br {}
+
+
+    /* contact */
+    section#contact {
+        background: #33404A;
+        padding: 40px 15px;
+    }
+
+    section#contact div.card_part {}
+
+    section#contact div.card_part div.card {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    section#contact div.card_part div.card h3 {
+        color: #000;
+    }
+
+
+
+    section#contact div.card_part div.card br {}
+
+
+
+    section#contact div.card_part div.card address {}
+
+    section#contact div.card_part div.card address br {}
+
+    section#contact div.card_part div.card a {
+        color: #83B2AE;
+        display: block;
+        padding: 5px 0;
+    }
+
+    section#contact div.card_part div.card a.link {}
+
+    /* footer */
+
+    section.footer-area {
+        background: #33404A;
+        padding: 40px 15px;
+    }
+
+
+    section.footer-area div.card_part {}
+
+    section.footer-area div.card_part div.card {
+        width: 100%
+    }
+
+    section.footer-area div.card_part div.card:last-child {
+        text-align: left;
+        margin-top: 10px;
+    }
+
+    section.footer-area div.card_part div.card a {}
+
+    section.footer-area div.card_part div.card a i.fa {
+        padding: 0 10px;
+    }
+
+    section.footer-area div.card_part div.card a i.fa-facebook {
+        color: #097CEB;
+    }
+
+    section.footer-area div.card_part div.card a i.fa-twitter {
+        color: #5DA9DD;
+    }
+
+    section.footer-area div.card_part div.card a i.fa-youtube {
+        color: #FF0404;
+    }
+
+    section.footer-area div.card_part div.card a i.fa-google-plus {
+        color: #34A853;
+    }
+
+
+
+    /* Style the button that is used to open and close the collapsible stogger */
+    .collapsible {
+        background-color: #fff;
+        color: #444;
+        cursor: pointer;
+        padding: 13px;
+        width: 85%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        border: 1px solid #f5f5f5;
+        margin-top: 10px;
+    }
+
+    /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+    .active,
+    .collapsible:hover {
+        background-color: #ccc;
+    }
+
+    /* Style the collapsible stogger. Note: hidden by default */
+    .stogger {
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        background-color: #f1f1f1;
+    }
+
+    /* blog */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100%;
+
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    /* card_part */
+    .card_part {
+        width: 100%;
+        display: inline-flex;
+    }
+
+    /* description */
+    p.description {
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
+    }
+
+    /*button  */
+    button {
+        border: 0;
+
+    }
+
+    button a {}
+
+    /* header_top */
+    section#header_top {
+        background: #5BDAE1;
+        padding: 20px 0;
+    }
+
+    section#header_top div.card_part {}
+
+    section#header_top div.card_part div.card {
+        width: 50%;
+    }
+
+    section#header_top div.card_part div.card:first-child {
+        margin-left: 30px;
+    }
+
+    section#header_top div.card_part div.card:last-child {
+        width: 50%;
+        text-align: right;
+        margin-right: 30px;
+    }
+
+    section#header_top div.card_part div.card i.fa.fa-clock-o {}
+
+    /* nav_section */
+
+    section#header_bottom {
+        display: inline-flex;
+        padding: 20px 15px;
+        width: 100%;
+    }
+
+    section#header_bottom div.name-area {
+        width: 19%;
+    }
+
+    section#header_bottom div.name-area div.united {}
+
+    section#header_bottom div.name-area div.united a {
+        font-size: 25px;
+    }
+
+    section#header_bottom div.name-area div.united a span.u {
+        color: #5BDAE1;
+    }
+
+
+
+    section#header_bottom div.name-area div.united sup {}
+
+
+
+    section#header_bottom nav#nav {
+        text-align: left;
+        width: 90%;
+    }
+
+    section#header_bottom nav#nav div.menu {}
+
+    section#header_bottom nav#nav div.menu ul {}
+
+    section#header_bottom nav#nav div.menu ul li {
+        display: inline;
+        padding: 0px 10px !important;
+    }
+
+    section#header_bottom nav#nav div.menu ul li a {
+        padding: 10px 5px !important;
+    }
+
+    section#header_bottom nav#nav div.menu ul li:nth-child(1) {
+        padding-left: 0 !important;
+    }
+
+    section#header_bottom nav#nav div.menu ul li:last-child {
+        padding-right: 0 !important;
+    }
+
+
+    section#header_bottom nav#nav div.mobile-menu {
+        display: none;
+    }
+
+    section#header_bottom nav#nav div.mobile-menu span {}
+
+
+
+    section#header_bottom nav#nav div.mobile-menu div#mobileNav.overlay {}
+
+    section#header_bottom nav#nav div.mobile-menu div#mobileNav.overlay a.btn-close {}
+
+
+
+    section#header_bottom nav#nav div.mobile-menu div#mobileNav.overlay div.overlay-content {}
+
+    section#header_bottom nav#nav div.mobile-menu div#mobileNav.overlay div.overlay-content a {}
+
+
+
+    /* nav_section */
+    /* banner_area */
+    section.banner_area {
+        background-image: url(../iamges/PicsArt_04-12-06.39.25.png);
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        position: relative;
+    }
+
+    section.banner_area div.banner_content {
+        position: absolute;
+        top: 40%;
+        left: 2%;
+    }
+
+    section.banner_area div.banner_content h1 {
+        font-size: 45px;
+        margin-bottom: 10px;
+    }
+
+
+
+    section.banner_area div.banner_content h3 {}
+
+
+    /* banner_area */
+    /* about_us */
+
+    section.about_us {
+        background: #5EDDE2;
+        padding: 40px 20px;
+        width: 97%;
+    }
+
+    section.about_us h1 {
+        font-size: 32px;
+    }
+
+
+
+    section.about_us div.card_part {}
+
+    section.about_us div.card_part div.card {
+        width: 80%;
+    }
+
+    section.about_us div.card_part div.button {
+        width: 20% !important;
+    }
+
+
+
+    section.about_us div.card_part div.card.button {}
+
+    section.about_us div.card_part div.card.button button {}
+
+    section.about_us div.card_part div.card.button button a.btn {}
+
+
+
+    /* about_us */
+
+    /* service */
+
+    section.about_us {
+        width: 100%;
+    }
+
+    section.about_us h1 {}
+
+
+
+    section.about_us div.card_part {
+        width: 100%;
+    }
+
+    section.about_us div.card_part div.card {
+        width: 80%;
+    }
+
+    section.about_us div.card_part div.card:last-child {
+        width: 20%;
+    }
+
+
+
+    section.about_us div.card_part div.card.button {}
+
+    section.about_us div.card_part div.card.button button {
+        padding: 10px;
+        cursor: pointer;
+        background: #5EDDE2;
+        border: 2px solid #4D5B66;
+        color: #4D5B66;
+    }
+
+    section.about_us div.card_part div.card.button button a.btn {}
+
+
+
+    section.service {
+        padding: 25px 40px;
+    }
+
+    section.service h1 {
+        text-align: center;
+        font-size: 45px;
+    }
+
+
+
+    section.service p {}
+
+    section.service div.lg_divive {
+        display: none !important;
+    }
+
+    section.service div.md_divice {
+        display: block;
+    }
+
+    section.service div.md_divice div.card_part div.card {}
+
+    section.service div.card_part {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    section.service div.md_divice div.card_part div.card {
+        width: 50%;
+    }
+
+
+    section.service div.card_part:nth-child(2) {
+        margin-top: 50px !important;
+
+    }
+
+    section.service div.card_part div.card div.sub_card_part {
+        display: inline-flex;
+        width: 100%;
+    }
+
+
+
+    section.service div.md_divice div.card_part div.card div.sub_card_part div.sub_card:nth-child(1) {
+        width: 20%;
+    }
+
+    section.service div.md_divice div.card_part div.card div.sub_card_part div.sub_card:nth-child(2) {}
+
+    section.service div.card_part div.card div.sub_card_part div.sub_card:nth-child(2) {
+        margin-left: 30px;
+        width: 80%;
+    }
+
+    section.service div.card_part div.card div.sub_card_part div.sub_card p {
+        width: 100%;
+        margin-left: 0;
+        text-align: left;
+    }
+
+
+    section.service div.card_part div.card div.sub_card_part div.sub_card i.fa,
+    .far,
+    .fas,
+    .fab {
+        padding: 20px;
+        border-radius: 50%;
+        color: #4D5B66;
+        background: #5EDDE2;
+    }
+
+
+    section.service div.card_part div.card div.sub_card_part div.sub_card i.far.fa-lightbulb {
+        font-size: 19px;
+    }
+
+    /* service */
+    /* about_us -02 */
+
+    section.about_us_02 {
+        background: #37444D;
+        color: #fff;
+        padding: 40px 20px;
+    }
+
+    section.about_us_02 h1 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+
+
+    section.about_us_02 p.description {
+        margin-bottom: 10px;
+    }
+
+    section.about_us_02 p.description br {}
+
+
+
+    section.about_us_02 div.card_part {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    section.about_us_02 div.card_part div.card {
+        width: 50%;
+    }
+
+    section.about_us_02 div.card_part div.card br {}
+
+
+    section.about_us_02 div.card_part div.card p {}
+
+    section.about_us_02 div.card_part div.card img {
+        width: 100%;
+    }
+
+    section.about_us_02 div.card_part div.card a {
+        color: #FFF;
+    }
+
+
+
+    section.about_us_02 div.card_part div.card button {
+        margin-top: 30px;
+    }
+
+    section.about_us_02 div.card_part div.card button a.btn {
+        background: #68EBE6;
+        padding: 10px;
+    }
+
+
+
+    /* about_us -02 */
+
+    /* blog */
+    section#blog {
+        padding: 40px 35px;
+    }
+
+    section#blog div.card_part {
+        width: 100%;
+    }
+
+    section#blog div.card_part div.card {
+        width: 33.3%;
+        margin: 5px;
+    }
+
+    section#blog div.card_part div.card:nth-child(1) {
+        margin-left: 0;
+    }
+
+    section#blog div.card_part div.card:last-child {
+        margin-right: 0;
+    }
+
+    section#blog div.card_part div.card h2 {
+        margin-bottom: 20px;
+        color: #4D5B66;
+    }
+
+    section#blog div.card_part div.card h2 a {}
+
+    section#blog div.card_part div.card p {
+        font-style: italic;
+    }
+
+    section#blog div.card_part div.card div.card_part_sub {
+        display: inline-flex;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    section#blog div.card_part div.card div.card_part_sub div.card_sub:nth-child(1) {
+        width: 30%;
+    }
+
+    section#blog div.card_part div.card div.card_part_sub div.card_sub {
+        width: 70%;
+    }
+
+    section#blog div.card_part div.card div.card_part_sub div.card_sub img {
+        width: 75%;
+        height: 75%;
+        border-radius: 50%;
+    }
+
+    section#blog div.card_part div.card div.card_part_sub div.card_sub a {
+        color: #000;
+        font-size: 20px;
+    }
+
+    section#blog div.card_part div.card br {}
+
+
+    /* contact */
+    section#contact {
+        background: #33404A;
+        padding: 40px 35px;
+    }
+
+    section#contact div.card_part {}
+
+    section#contact div.card_part div.card {
+        width: 33.33%;
+    }
+
+    section#contact div.card_part div.card h3 {
+        color: #000;
+    }
+
+
+
+    section#contact div.card_part div.card br {}
+
+
+
+    section#contact div.card_part div.card address {}
+
+    section#contact div.card_part div.card address br {}
+
+    section#contact div.card_part div.card a {
+        color: #83B2AE;
+        display: block;
+        padding: 5px 0;
+    }
+
+    section#contact div.card_part div.card a.link {}
+
+    /* footer */
+
+    section.footer-area {
+        background: #33404A;
+        padding: 40px 20px;
+    }
+
+
+    section.footer-area div.card_part {}
+
+    section.footer-area div.card_part div.card {
+        width: 46%
+    }
+
+    section.footer-area div.card_part div.card:last-child {
+        text-align: right;
+    }
+
+    section.footer-area div.card_part div.card a {}
+
+    section.footer-area div.card_part div.card a i.fa {
+        padding: 0 10px;
+    }
+
+    section.footer-area div.card_part div.card a i.fa-facebook {
+        color: #097CEB;
+    }
+
+    section.footer-area div.card_part div.card a i.fa-twitter {
+        color: #5DA9DD;
+    }
+
+    section.footer-area div.card_part div.card a i.fa-youtube {
+        color: #FF0404;
+    }
+
+    section.footer-area div.card_part div.card a i.fa-google-plus {
+        color: #34A853;
+    }
+
+
+
+    /* Style the button that is used to open and close the collapsible stogger */
+    .collapsible {
+        background-color: #fff;
+        color: #444;
+        cursor: pointer;
+        padding: 13px;
+        width: 85%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        border: 1px solid #f5f5f5;
+        margin-top: 10px;
+    }
+
+    /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+    .active,
+    .collapsible:hover {
+        background-color: #ccc;
+    }
+
+    /* Style the collapsible stogger. Note: hidden by default */
+    .stogger {
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        background-color: #f1f1f1;
+    }
+
+    /* blog */
+
+    /* page */
+    /*  about us  */
+    section#about_us_page {}
+
+    section#about_us_page h1 {
+        text-align: center;
+        font-size: 30px;
+        letter-spacing: 0;
+        margin: 10px 0;
+    }
+
+
+
+    section#about_us_page div.main_part {}
+
+    section#about_us_page div.main_part div.card_part {
+        margin: 0;
+        width: 90%;
+        margin: 0px 15px;
+        display: inline-flex;
+    }
+
+    section#about_us_page div.main_part div.card_part div.card.content_part {
+        margin-right: 0;
+
+        margin-bottom: 30px;
+        width: 50%;
+
+    }
+
+    section#about_us_page div.main_part div.card_part div.card.content_part p {
+        margin-bottom: 25px;
+    }
+
+    section#about_us_page div.main_part div.card_part div.card.content_part br {
+        display: inline-block;
+        width: 100%;
+    }
+
+
+
+    section#about_us_page div.main_part div.card_part div.card.image {}
+
+    section#about_us_page div.main_part div.card_part div.card.image img {
+        height: 80%;
+        width: 100%;
+    }
+
+    section#about_us_page div.main_part div.card_part div.card.content_part button {
+
+        /* color: red; */
+    }
+
+    section#about_us_page div.main_part div.card_part div.card.content_part button a.pg_abo {
+        padding: 10px;
+        background: #000;
+        color: red;
+    }
+
+    /* teem  */
+
+    section#about_us_page div.main_part div#teem {
+        background: #f7f7f7;
+    }
+
+    section#about_us_page div.main_part div#teem h1 {
+        text-align: center;
+        font-size: 30px;
+        letter-spacing: 0;
+        margin: 10px 0;
+    }
+
+
+
+    section#about_us_page div.main_part div#teem div.card_part {
+        width: 90%;
+        margin: 20px 15px;
+        display: inline-flex;
+    }
+
+    section#about_us_page div.main_part div#teem div.card_part div.card {
+        width: 100%;
+        margin: 0px 5px;
+        border: 3px solid transparent;
+        height: 450px;
+        /* background: green;  */
+    }
+
+    section#about_us_page div.main_part div#teem div.card_part div.card:first-child {
+        margin-left: 0;
+    }
+
+    section#about_us_page div.main_part div#teem div.card_part div.card:last-child {
+        margin-right: 0;
+    }
+
+    section#about_us_page div.main_part div#teem div.card_part div.card:hover {
+        border: 3px solid #444;
+
+    }
+
+    section#about_us_page div.main_part div#teem div.card_part div.card img {
+        width: 100%;
+    }
+
+
+
+    section#about_us_page div.main_part div#teem div.card_part div.card h3.name {
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+
+
+    section#about_us_page div.main_part div#teem div.card_part div.card h5.dige {
+        text-align: right;
+        margin-right: 20%;
+        font-size: 20px;
+    }
+
+
+
+    section#about_us_page div.main_part div#teem div.card_part div.card p.message {
+        width: 95%;
+        margin: 5px 10px;
+        margin-bottom: 10px;
+        text-align: justify;
+        height: 160px;
+    }
+
+
+
+    section#about_us_page div.main_part div#teem div.card_part div.card button.btn {
+        margin-left: 5%;
+    }
+
+    section#about_us_page div.main_part div#teem div.card_part div.card button.btn a.pg_abo.teem {
+        padding: 10px;
+        background: #000;
+        color: red;
+    }
+
+    /* progresss bar  */
+
+
+    section#about_us_page div.main_part div#progress_bar {}
+
+    section#about_us_page div.main_part div#progress_bar div.card_part {
+        width: 90%;
+        display: inline-flex;
+    }
+
+    section#about_us_page div.main_part div#progress_bar div.card_part div.card {
+        width: 100%;
+        margin: 10px 0;
+
+    }
+
+    section#about_us_page div.main_part div#progress_bar div.card_part div.card:first-child {
+        margin-top: 0;
+
+    }
+
+    section#about_us_page div.main_part div#progress_bar div.card_part div.card:last-child {
+        margin-bottom: 0;
+    }
+
+    section#about_us_page div.main_part div#progress_bar div.card_part div.card h3 {
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 17px;
+    }
+
+    section#about_us_page div.main_part div#progress_bar div.card_part div.card div.progress-bar {
+        margin-left: 25%;
+        margin-top: 5%;
+    }
+
+
+
+    .progress-bar {
+        position: relative;
+        height: 150px;
+        width: 150px;
+    }
+
+    .progress-bar div {
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+    }
+
+    .progress-bar div span {
+        position: absolute;
+        font-family: Arial;
+        font-size: 25px;
+        line-height: 75px;
+        height: 75px;
+        width: 75px;
+        left: 12.5px;
+        top: 12.5px;
+        text-align: center;
+        border-radius: 50%;
+        background-color: white;
+    }
+
+    .progress-bar .background {
+        background-color: #b3cef6;
+    }
+
+    .progress-bar .rotate {
+        clip: rect(0 50px 100px 0);
+        background-color: #4b86db;
+    }
+
+    .progress-bar .left {
+        clip: rect(0 50px 100px 0);
+        opacity: 1;
+        background-color: #b3cef6;
+    }
+
+    .progress-bar .right {
+        clip: rect(0 50px 100px 0);
+        transform: rotate(180deg);
+        opacity: 0;
+        background-color: #4b86db;
+    }
+
+    @keyframes toggle {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    /* about us page   */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    body {
+        /* background: green !important; */
+    }
+
+    section#about_us_page div.main_part div.card_part {
+        margin: 0;
+        width: 92.5%;
+        margin: 0px 50px;
+        display: inline-flex;
+    }
+
+    section#about_us_page div.main_part div.card_part div.card.image img {
+        height: 64%;
+    }
+
+    section#about_us_page div.main_part div.card_part div.card {
+        width: 50%;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    body {
+        /* background: blue !important; */
+    }
+}
